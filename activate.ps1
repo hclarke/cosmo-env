@@ -1,1 +1,1 @@
-& "$PSScriptRoot/o/cosmos/bin/bash.com" "$PSScriptRoot/activate.sh" $args
+& "$PSScriptRoot/o/cosmos/bin/bash.com" "$PSScriptRoot/activate" $args
