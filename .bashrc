@@ -1,5 +1,7 @@
 PS1='$\w: '
 
 if [ -f "${HOME}/.bashrc" ]; then
-    . "${HOME}/.bashrc"
+    if ! [ "${HOME}" = "${COSMO_ENV_PATH}" ]; then
+        . "${HOME}/.bashrc"
+    fi
 fi
