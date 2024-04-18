@@ -1,6 +1,8 @@
+# cosmo-env
+
 sets up a hermetic bash environment with only cosmo tools on it
 
-# building
+## building
 
 this downloads and unpacks dependencies
 
@@ -10,24 +12,24 @@ this downloads and unpacks dependencies
 ./build.sh
 ```
 
-## with powershell
+### with powershell
 
 ```
 ./build.ps1
 ```
 
-# activating
+## activating
 
 this sets environment variables, and launches an interactive bash session
 
-## with normal shell
+### with normal shell
 
 ```
 cd your/project
 path/to/cosmo-env/activate.sh
 ```
 
-## with powershell
+### with powershell
 
 ```
 cd your/project
