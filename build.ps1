@@ -1,1 +1,1 @@
-& "$PSScriptRoot/bootstrap/bash.com" "$PSScriptRoot/build.sh"
+& "$PSScriptRoot/bootstrap/bash.com" "$PSScriptRoot/build"
