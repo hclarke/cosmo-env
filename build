@@ -1,6 +1,6 @@
 set -exuo pipefail
 PATH=''
-SELF_DIR=$"${0%build.sh}"
+SELF_DIR=$"${0%build}"
 cd "${SELF_DIR}"
 
 bootstrap/mkdir -p dl
